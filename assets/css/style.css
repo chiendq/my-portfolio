@@ -40,6 +40,8 @@ html{
     color: #000;
 }
 
+
+
 .col-half{
     width: 50%;
 }
@@ -144,7 +146,6 @@ html{
 .img-cover:hover{
     transform: scale(1.25);
     -webkit-transition: transform 0.6s ease-in-out;
-
 }
 
 .socials-list a{
@@ -167,12 +168,15 @@ html{
     display: inline-block;
 }
 
+.btn-contact:hover{
+    transform: translateX(20px);
+    -webkit-transition: transform 0.5s ease-in-out;
+}
 .wave-bg {
     display: block;
     height: 220px;
     width: 100%;
     min-width: 600px;
-    transform-origin: top;
     -webkit-animation: animateWave 2000ms cubic-bezier(.23,1,.32,1) forwards;
     animation: animateWave 2000ms cubic-bezier(.23,1,.32,1) forwards;
     background-image: url(../img/wave.svg);
@@ -180,7 +184,98 @@ html{
     background-repeat: no-repeat;
 }
 
+/* About */
+#about{
+    width: 60%;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
 
+#about .about-me h2{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#about .about-me p{
+    margin-bottom: 20px;
+}
+
+#about .img-about{
+    height: 60%;
+    width: 60%;
+    padding: 24px;
+    border-radius: 180px;
+    margin-left: 30%;
+}
+
+#about .img-about:hover{
+    transform: scale(1.2);
+    -webkit-transition: transform 0.6s ease-in-out;
+
+}
+#about .row-title{
+    width: 20%;
+}
+#about .row-info{
+    text-align: end;
+    font-weight: bold;
+}
+/* Services */
+#services {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#services p{
+    margin: 24px 0;
+}
+
+.services-list{
+    width: 50%;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.svg-mobile{
+    display: block;
+    height: 150px;
+    width: 50%;
+    min-width: 200px;
+    -webkit-animation: animateWave 2000ms cubic-bezier(.23,1,.32,1) forwards;
+    animation: animateWave 2000ms cubic-bezier(.23,1,.32,1) forwards;
+    background-image: url(../img/services/mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.svg-api{
+    display: block;
+    height: 100px;
+    width: 50%;
+    min-width: 100px;
+    -webkit-animation: animateWave 2000ms cubic-bezier(.23,1,.32,1) forwards;
+    animation: animateWave 2000ms cubic-bezier(.23,1,.32,1) forwards;
+    background-image: url(../img/services/rest-api.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.svg-web{
+    display: block;
+    height: 150px;
+    width: 50%;
+    min-width: 150px;
+    -webkit-animation: animateWave 2000ms cubic-bezier(.23,1,.32,1) forwards;
+    animation: animateWave 2000ms cubic-bezier(.23,1,.32,1) forwards;
+    background-image: url(../img/services/web.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Footer */
 #footer{
     text-align: center;
     line-height: 40px;
