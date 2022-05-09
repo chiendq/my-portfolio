@@ -141,11 +141,7 @@ html{
 }
 
 .cover .name:hover{
-    animation-duration: 1200ms;
-    animation-name: blink;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    -webkit-animation:blink 1200ms infinite;
+    -webkit-animation:blink 500ms infinite;
 }
 .cover .position{
     margin: 32px 0 16px;
@@ -225,8 +221,7 @@ html{
 }
 
 #about .img-about{
-    height: 60%;
-    width: 60%;
+    width: 80%;
     padding: 24px;
     border-radius: 180px;
     margin-left: 30%;
@@ -252,7 +247,7 @@ html{
 }
 
 #targets .targets-container{
-    padding: 120px;
+    padding: 148px;
     line-height: 30px;
     background-image: linear-gradient(to bottom right, rgb(0, 115, 255), rgb(102, 208, 148));
 }
@@ -302,6 +297,13 @@ html{
     margin: 12px 60px ;
 }
 
+.api:hover{
+    animation: tilt-shaking 0.5s infinite;
+}
+
+#mobile:hover{
+    animation: jump .5s linear alternate infinite;
+}
 /* Project */
 
 #projects{
@@ -417,4 +419,19 @@ html{
     to {
         color:black;
     }
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+@keyframes jump {
+    100% {transform: translate3d(0,0,100%) scale3d(.7,1.5,1);}
+    40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
+    0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+
 }
