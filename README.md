@@ -1,3 +1,3 @@
 # My-Portfolio
-https://chiendq.github.io/my-portfolio/
+https://chiendq.vercel.app/
 # Updating...
