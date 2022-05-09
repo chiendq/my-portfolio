@@ -247,6 +247,7 @@ html{
 #about .row-info{
     text-align: end;
     font-weight: bold;
+    margin-left: 12px;
 }
 /* targets */
 #targets {
@@ -294,8 +295,8 @@ html{
     background-color: rgb(226, 236, 245);
     width: calc(100%/4);
     float: left;
-    width: 25%;
-    margin: 0 36px ;
+    width: 20%;
+    margin: 0 60px ;
 }
 
 /* Project */
@@ -325,7 +326,7 @@ html{
 }
 
 .contact-container{
-    width: 60%;
+    width: 68%;
     position: relative;
     align-items: center;
     margin-left: auto;
@@ -336,7 +337,7 @@ html{
 #contact .contact-sub-container{
     float: left;
     display: block;
-    padding: 40px;
+    padding: 48px;
     /* border: #000 1px solid; */
     background-color: #f4f6f8;
     border-radius: 16px;
@@ -368,6 +369,9 @@ html{
     margin-top: 12px;
 }
 
+.contact-btn:hover {
+    opacity: 0.5;
+}
 
 .contact-desc-container{
     width: 50%;
