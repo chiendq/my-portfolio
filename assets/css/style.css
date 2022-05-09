@@ -163,10 +163,6 @@ html{
     margin: 100px 120px;
 }
 
-.img-cover-container{
-
-}
-
 .img-cover:hover{
     transform: scale(1.25);
     -webkit-transition: transform 0.6s ease-in-out;
@@ -256,9 +252,8 @@ html{
 }
 
 #targets .targets-container{
-    height: 560px;
     padding: 120px;
-    line-height: 50px;
+    line-height: 30px;
     background-image: linear-gradient(to bottom right, rgb(0, 115, 255), rgb(102, 208, 148));
 }
 
@@ -266,11 +261,18 @@ html{
     font-size: 40px;
 }
 #targets p{
-    margin-top: 12px;
+    margin-top: 24px;
     margin-bottom: 12px;
     font-size: 24px;
 }
 
+#targets .service-desc{
+    font-weight: bold;
+}
+
+.targets-list img{
+    margin-top: 12px;
+}
 .targets-list{
     width: 60%;
     margin-left: auto;
@@ -278,6 +280,7 @@ html{
     align-items: center;
     overflow: hidden;
 }
+
 
 .see-more{
     display: block;
@@ -296,7 +299,7 @@ html{
     width: calc(100%/4);
     float: left;
     width: 20%;
-    margin: 0 60px ;
+    margin: 12px 60px ;
 }
 
 /* Project */
